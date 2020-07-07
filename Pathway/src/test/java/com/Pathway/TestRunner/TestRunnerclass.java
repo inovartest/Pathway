@@ -17,7 +17,7 @@ monochrome = true,dryRun = false,strict = true,
 format = {
         "pretty",
         "html:test-output",
-       "json:target/Pathwayreports/Cucumber.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/eighthbuildreport.html",
+       "json:target/Pathwayreports/Cucumber.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/ninthbuildreport.html",
          "junit:junit_xml/cucumber.xml"})
 public class TestRunnerclass  extends AbstractTestNGCucumberTests{
 	@AfterClass
@@ -28,17 +28,6 @@ public class TestRunnerclass  extends AbstractTestNGCucumberTests{
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

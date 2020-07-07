@@ -32,7 +32,7 @@ public class Buildoutflowpages extends Basepage
 	private By yesbuttonforrpm =By.xpath("(.//*[@class='btn-grid approve'])[2]");
 	public void createnewbuildoutrequestwithMarketuser(String txid, String rxid, String date)
 	{
-		explicitWaitClickable(createnewbuildoutbutton);
+		click(createnewbuildoutbutton);
 		sleep();
 		enterText(txidfiledbox, txid);
 		sleep();

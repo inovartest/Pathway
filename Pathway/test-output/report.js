@@ -22,17 +22,17 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "enter url application into \"chrome\" for full BuildOutflow flow with \"stage\"",
+  "name": "enter url application into \"chrome\" for full BuildOutflow flow with \"local\"",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "First Market User login with valid creditinals for full BuildOutflow process with \"stage\"",
+  "name": "First Market User login with valid creditinals for full BuildOutflow process with \"local\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "Rise a BuildOutflow Request with  First Market User 2605 with \"06-18-2020\"",
+  "name": "Rise a BuildOutflow Request with  First Market User 2626 with \"06-18-2020\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -47,39 +47,9 @@ formatter.match({
       "offset": 28
     },
     {
-      "val": "stage",
+      "val": "local",
       "offset": 69
     }
   ],
   "location": "FullBuildoutflow.IntiationApplication(String,String)"
-});
-formatter.result({
-  "duration": 45378020200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "stage",
-      "offset": 83
-    }
-  ],
-  "location": "FullBuildoutflow.first_Market_User_login_with_valid_creditinals_for_full_BuildOutflow_process(String)"
-});
-formatter.result({
-  "duration": 46737564700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2605",
-      "offset": 52
-    },
-    {
-      "val": "06-18-2020",
-      "offset": 63
-    }
-  ],
-  "location": "FullBuildoutflow.rise_a_BuildOutflow_Request_with_First_Market_User(int,String)"
 });

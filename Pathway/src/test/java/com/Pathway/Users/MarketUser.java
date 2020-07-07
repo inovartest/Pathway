@@ -16,7 +16,7 @@ public class MarketUser extends Basepage
 	Homepage homepage = new Homepage();
 	Cancelationflowpages cancel = new Cancelationflowpages();
 	Renewalflowpages renewalpage = new Renewalflowpages();
-	DataRetrival data = new DataRetrival();
+	com.Pathway.Testdata.DataRetrival data = new com.Pathway.Testdata.DataRetrival();
 	Buildoutflowpages buildout = new Buildoutflowpages();
 	
 	public void loginwithMarketUser()

@@ -23,7 +23,7 @@ public class PartialCancelationsflow extends Basepage {
 	RequestViewPage view = new RequestViewPage();
 	LogoutPage logout = new LogoutPage();
 
-	@Given("^enter url application into \"([^\"]*)\" for Partial cancelation flow with \"([^\")\"$")
+	@Given("^enter url application into \"([^\"]*)\" for Partial cancelation flow with \"([^\"]*)\"$")
 	public void enter_url_application_into_for_Partial_cancelation_flow(String browsername, String environment) {
 		extentreporinit("PartialCancelation", "PartialCancleation flow report");
 		init(browsername);

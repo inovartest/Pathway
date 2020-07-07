@@ -60,12 +60,7 @@ public class Loginpage extends Basepage
 	{
 		try {
 			Robot r = new Robot();
-			/*r.keyPress(KeyEvent.VK_CAPS_LOCK);
-			Thread.sleep(2000);
-			r.keyPress(KeyEvent.VK_CAPS_LOCK);
-			Thread.sleep(2000);*/
-			/*r.keyPress(KeyEvent.VK_CONTROL);
-			sleep();*/
+			
 			r.keyPress(KeyEvent.VK_SHIFT);
 			sleep();
 			r.keyPress(KeyEvent.VK_J); 
@@ -164,7 +159,7 @@ public class Loginpage extends Basepage
 	}
 	public void stagelogin()
 	{
-		enterText(Emailfieldbox, "Jaleel.Khan23@T-Mobile.com");
+		enterText(Emailfieldbox, "Ramesh.Bandaru2@T-Mobile.com");
 		sleep();
 		click(Nextbuttonforsignin);
 		sleep();
@@ -181,7 +176,7 @@ try {
 	            /*
 	             * r.keyPress(KeyEvent.VK_CONTROL); sleep();
 	             */
-	            Thread.sleep(2000);
+	           /* Thread.sleep(2000);
 	            r.keyPress(KeyEvent.VK_SHIFT);
 	            Thread.sleep(2000);
 	            r.keyPress(KeyEvent.VK_J);
@@ -203,9 +198,9 @@ try {
 	            r.keyPress(KeyEvent.VK_H);
 	            r.keyPress(KeyEvent.VK_A);
 	            r.keyPress(KeyEvent.VK_N);
-	            /*Thread.sleep(2000);
+	            Thread.sleep(2000);
 	            r.keyPress(KeyEvent.VK_SHIFT);
-	            */
+	            
 	            r.keyPress(KeyEvent.VK_2);
 	            r.keyPress(KeyEvent.VK_3);
 	            Thread.sleep(2000);
@@ -260,7 +255,84 @@ try {
 	            r.keyPress(KeyEvent.VK_TAB);
 	            r.keyPress(KeyEvent.VK_ENTER);
 	            r.keyRelease(KeyEvent.VK_CONTROL);
-	 
+	 */
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_R);
+    Thread.sleep(2000);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_A);
+    r.keyPress(KeyEvent.VK_M);
+    r.keyPress(KeyEvent.VK_E);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_S);
+    r.keyPress(KeyEvent.VK_H);
+    r.keyPress(KeyEvent.VK_DECIMAL);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_B);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_A);
+    r.keyPress(KeyEvent.VK_N);
+    r.keyPress(KeyEvent.VK_D);
+    r.keyPress(KeyEvent.VK_A);
+    r.keyPress(KeyEvent.VK_R);
+    r.keyPress(KeyEvent.VK_U);
+    r.keyPress(KeyEvent.VK_2);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    r.keyPress(KeyEvent.VK_2);
+    Thread.sleep(2000);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_T);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_MINUS);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_M);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_O);
+    r.keyPress(KeyEvent.VK_B);
+    r.keyPress(KeyEvent.VK_I);
+    r.keyPress(KeyEvent.VK_L);
+    r.keyPress(KeyEvent.VK_E);
+    r.keyPress(KeyEvent.VK_DECIMAL);
+    r.keyPress(KeyEvent.VK_C);
+    r.keyPress(KeyEvent.VK_O);
+    r.keyPress(KeyEvent.VK_M);
+    r.keyPress(KeyEvent.VK_TAB);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_B);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_U);
+    r.keyPress(KeyEvent.VK_F);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_F);
+    r.keyPress(KeyEvent.VK_A);
+    r.keyPress(KeyEvent.VK_L);
+    r.keyPress(KeyEvent.VK_O);
+    r.keyPress(KeyEvent.VK_5);       
+    r.keyPress(KeyEvent.VK_3);
+    r.keyPress(KeyEvent.VK_6);
+    r.keyPress(KeyEvent.VK_2);
+    r.keyPress(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_SLASH);
+    r.keyRelease(KeyEvent.VK_SHIFT);
+    Thread.sleep(2000);
+    r.keyPress(KeyEvent.VK_TAB);
+    r.keyPress(KeyEvent.VK_ENTER);
+    r.keyRelease(KeyEvent.VK_CONTROL);
 
 
 
