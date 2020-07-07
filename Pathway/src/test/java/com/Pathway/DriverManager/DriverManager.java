@@ -39,7 +39,7 @@ private static WebDriver driver;
 	}
 
 	/**
-	 * @return WebDriver
+	 * @return WebDrive
 	 * 
 	 *         This method return IEDriver object
 	 */
