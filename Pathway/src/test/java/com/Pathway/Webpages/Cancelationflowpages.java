@@ -7,8 +7,7 @@ import com.Pathway.Base.Basepage;
 
 public class Cancelationflowpages extends Basepage {
 
-	private By createNewcancelationbutton = By
-			.xpath(".//*[@class='btn-grid approve create-cancel ml-0 mr-0 button-margin']");
+	private By createNewcancelationbutton = By.xpath(".//*[@class='btn-grid approve create-cancel ml-0 mr-0 button-margin']");
 	private By partialcancelation = By.xpath("//label[contains(text(),'Partial Cancellation')]");
 	private By fullCancelation = By.xpath("//label[contains(text(),'Full Cancellation')]");
 	private By txidfieldbox = By.xpath("//input[@placeholder='Enter TX Site ID']");
@@ -32,7 +31,8 @@ public class Cancelationflowpages extends Basepage {
 	private By legaluserconfirmationbutton = By.xpath("(.//*[text()='YES'])[1]");
 	RequestViewPage view = new RequestViewPage();
 
-	public void riseCancelationRequestWithMUuser(String Txid, String Rxid) {
+	public void riseCancelationRequestWithMUuser(String Txid, String Rxid)
+	{
 		click(createNewcancelationbutton);
 		sleep();
 		click(fullCancelation);

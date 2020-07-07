@@ -1,5 +1,7 @@
 package com.Pathway.DriverManager;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -31,7 +33,7 @@ private static WebDriver driver;
 				caps.setCapability(ChromeOptions.CAPABILITY, options);
 				caps.setCapability("acceptInsecureCerts", true);
 		driver = new ChromeDriver(caps);
-		
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		VerifyBrowserOS();
 		return driver;
 	}
