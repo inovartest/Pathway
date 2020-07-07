@@ -47,7 +47,7 @@ public class LegalUser extends Basepage
 	}
 	public void sendtoFCCbuildrequestwithLegalsuer(int i)
 	{
-		refreshthepage();
+		
 		sleep();
 		homepage.Buildoutbutton();
 		sleep();

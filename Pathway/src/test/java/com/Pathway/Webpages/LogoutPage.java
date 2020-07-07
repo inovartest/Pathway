@@ -17,7 +17,7 @@ public class LogoutPage extends Basepage
 		refreshthepage();
 		sleep();
 		try {
-			
+			sleep();
 			mouseoverelement(accounticon);
 			sleep();
 			explicitWaitClickable(logoutbutton);

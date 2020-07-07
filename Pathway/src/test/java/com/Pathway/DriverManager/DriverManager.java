@@ -33,7 +33,7 @@ private static WebDriver driver;
 				caps.setCapability(ChromeOptions.CAPABILITY, options);
 				caps.setCapability("acceptInsecureCerts", true);
 		driver = new ChromeDriver(caps);
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+	//	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		VerifyBrowserOS();
 		return driver;
 	}
